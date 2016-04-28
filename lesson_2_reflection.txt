@@ -7,6 +7,10 @@ version control on that folder.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+A working directory is just a folder, with or without git control.
+A git repository is a folder that has version control by git.
+A staging area is a group of files that is currently under version control by git.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
