@@ -1,21 +1,28 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-It creates a hidden folder ".git" that contains data about everything in the current
-folder. We need to do it to make a folder a git repository so that we can use git
-version control on that folder.
+It creates a hidden folder ".git" that contains data about history commits in the 
+current folder. We need to do it to make a folder a git repository so that we can
+use git version control on that folder.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-A working directory is just a folder, with or without git control.
+A working directory is just a folder that contains current working files that are
+or are not commited by git yet.
 A git repository is a folder that has version control by git.
-A staging area is a group of files that is currently under version control by git.
+A staging area is a group of files that is currently under version control by git
+for the next commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+I will add only one file that has changed to the staging area at a time and commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+When I want to do some (big) experiment with my code so I can do all the experiment
+in a new branch. I can also make different versions of the same program.
 
 How do the diagrams help you visualize the branch structure?
 
