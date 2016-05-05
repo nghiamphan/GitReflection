@@ -26,8 +26,15 @@ in a new branch. I can also make different versions of the same program.
 
 How do the diagrams help you visualize the branch structure?
 
+It makes visualizing the branch structure way easier.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+We get the updates introduced in a branch incoprated into another. We represent it
+in the diagram for easy imagination.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Automatic merging is more convenient. Manual merging is safer.
